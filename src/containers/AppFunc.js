@@ -11,7 +11,7 @@ const App = (props) => {
     ],
   });
 
-  const [otherState, setOtherState] = useState('some other value');
+  const [otherState] = useState('some other value');
 
   console.log(personsState, otherState);
 
